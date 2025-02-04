@@ -1,0 +1,62 @@
+.camera-page {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, select {
+  display: block;
+  width: 90%;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.stream-info input {
+  width: 80%;
+}
+
+.location-inputs, .weather-inputs {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.location-inputs label, .weather-inputs label {
+  flex: 1;
+}
+
+.location-weather {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2980b9;
+}

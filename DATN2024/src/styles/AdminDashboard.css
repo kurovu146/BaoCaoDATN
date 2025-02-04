@@ -1,0 +1,35 @@
+.admin-dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.admin-dashboard h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.admin-table th, .admin-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.admin-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.admin-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

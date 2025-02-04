@@ -1,0 +1,36 @@
+.vsm-page {
+  padding: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.camera-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.camera-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+/* .camera-stream {
+  margin-top: 10px;
+  position: relative;
+  padding-top: 56.25%;
+} */
+
+.camera-stream iframe,
+.camera-stream video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
